@@ -5,7 +5,7 @@
       <paths name="neurosynergie.cz">
         <serverdata>
           <mappings>
-            <mapping deploy="/neurosynergie" local="$PROJECT_DIR$" web="/neurosynergie" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
