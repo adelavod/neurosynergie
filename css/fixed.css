@@ -1,18 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Red+Hat+Display:400,700&display=swap');
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*  navbar   */
+.navbar {
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand{
+    letter-spacing: .1rem;
+}
+.nav-link{
+    letter-spacing: .1rem;
+}
+/*  landing   */
 .home-inner {
-    background-image: url("doctorlanding.jpg");
+    background-image: url("images/doctorlanding.jpg"); opacity: 0.8;
 }
 .caption{
     width: 100%;
     max-width: 100%;
     position: absolute;
     top: 38%;
+    padding: 20px;
     z-index: 1;
     color: white;
 }
+.caption h1{
+    text-shadow: .1rem .1rem .8rem black;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+.caption h2{
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
 
 .landing {
+    background-color: black;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -40,4 +65,14 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     will-change: transform;
+}
+
+/*  sluzby   */
+#sluzby .container-fluid\" {
+    padding: 30px;
+}
+
+#sluzby p {
+   font-size: 1.5rem;
+    padding: 20px;
 }
