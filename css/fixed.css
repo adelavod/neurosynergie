@@ -115,12 +115,23 @@ body{
     background-color: black;
 }
 
-#kontakt h3{
+#kontakt h3 {
     font-size: 2.5rem;
     margin-top: 40px;
 }
+
+#kontakt h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 #kontakt .text-left{
-    margin-left: 50px
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+#kontakt .table{
+    font-weight: 700;
 }
 
 .fixed {
@@ -129,7 +140,10 @@ body{
     opacity: 0.5;
 }
 
-
+/*-- footer --*/
+.footer{
+    background-color: #888B8C;
+}
 
 /*--- iOS Fixed Background Image --*/
 
