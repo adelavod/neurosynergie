@@ -48,7 +48,17 @@ body{
     letter-spacing: .2rem;
     text-shadow: .1rem .1rem .8rem black;
 }
-
+/* upravena landing page pro mobily */
+@media (max-width: 767px){
+    .caption h1{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .caption h2{
+        letter-spacing: .1rem;
+    }
+}
+/* landing page */
 .landing {
     background-color: black;
     position: relative;
@@ -93,6 +103,10 @@ body{
     padding-right: 40px;
     padding-top: 40px;
     text-align: justify;
+}
+
+#kdojsme #name{
+    text-align: left;
 }
 
 .aboutme a{
@@ -141,8 +155,22 @@ body{
 }
 
 /*-- footer --*/
-.footer{
-    background-color: #888B8C;
+#footer{
+    background-color: #4A5859;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer p{
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+#footer a{
+    color: white;
+    font-size: 1.2rem;
+
 }
 
 /*--- iOS Fixed Background Image --*/
