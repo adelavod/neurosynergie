@@ -90,7 +90,19 @@ body{
     will-change: transform;
 }
 
+/* Sestry */
+#sestry h2{
 
+    padding-top: 20px;
+}
+#sestry .jumbotron-fluid{
+    background-color: #e9ecef;
+    margin-bottom: 30px;
+}
+#sestry img{
+    width: 80%;
+    border-radius: 50%;
+}
 
 #kdojsme .row{
     margin-bottom: 30px;
